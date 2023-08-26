@@ -92,6 +92,12 @@
         $("div.post.2022").removeClass("hide");
         $("a.2022").addClass("active");
       });
+	$("a.2023").click(function(){
+        $("div.post:not([2023])").addClass("hide");
+        $("a:not([2023])").removeClass("active");
+        $("div.post.2023").removeClass("hide");
+        $("a.2023").addClass("active");
+      });
       
     });
   </script>
