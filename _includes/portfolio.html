@@ -2,9 +2,11 @@
 
 	{% for post in site.posts %}
 	
-	
+	{% if post.year < 2020 %}
+<div class="post 2010"> 
+	{% else %}
 <div class="post {{ post.year }}"> 
-	
+	{% endif %}	
      <a href="{{ site.url }}/art/img/{{ post.img }}" title="{{ post.title }}, {{ post.date | date: '%B %Y' }}" data-caption="{{ post.title }} | {{ post.date | date: '%B %Y' }} | {{ post.excerpt }}">
 	     <img src="{{ site.url }}/art/img/{{ post.img }}" alt="{{ post.title }} by Liz Lorena">
 	</a>	
