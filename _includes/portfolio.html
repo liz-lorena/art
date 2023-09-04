@@ -2,22 +2,12 @@
 
 	{% for post in site.posts %}
 	
-	<!--{% if post.year == 2022 %}-->
+	
 <div class="post {{ post.year }}"> 
-	<!--{% else %}
-<div class="post hide {{ post.year }}">
-	{% endif %}-->
+	
      <a href="{{ site.url }}/art/img/{{ post.img }}" title="{{ post.title }}, {{ post.date | date: '%B %Y' }}" data-caption="{{ post.title }} | {{ post.date | date: '%B %Y' }} | {{ post.excerpt }}">
 	     <img src="{{ site.url }}/art/img/{{ post.img }}" alt="{{ post.title }} by Liz Lorena">
-	</a>
-	
-	<!--<form action="{{ site.url }}/art{{ post.url }}">
-              <button type="submit" class="comment" title="Leave a comment" style="margin-right:10px;"><span uk-icon="icon: commenting"></span></button>
-            </form>
-	
-	<a href="{{ site.url }}/art/img/{{ post.img }}" class="link" title="Enlarge image" data-caption="{{ post.title }} | {{ post.date | date: '%B %Y' }} | {{ post.excerpt }}">
-	     <span uk-icon="icon: expand"></span>
-	</a>-->
+	</a>	
 </div>
 
     {% endfor %}
