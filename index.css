@@ -297,8 +297,8 @@ html[data-theme="dark"] {
 	}
 	
 	#comments, p.description {
-	/*width:60%;*/
-	margin:0 auto;
+	/*width:60%;
+	margin:0 auto;*/
 	}
 }
 
