@@ -7,7 +7,7 @@
 	{% else %}
 <div class="post {{ post.year }}"> 
 	{% endif %}	
-     <a href="{{ site.url }}/art/img/{{ post.img }}" title="{{ post.title }}, {{ post.date | date: '%B %Y' }}" data-caption="{{ post.title }} | {{ post.date | date: '%B %Y' }} | {{ post.excerpt }}">
+     <a href="{{ site.url }}/art/{{ post.url }}" title="{{ post.title }}, {{ post.date | date: '%B %Y' }}" data-caption="{{ post.title }} | {{ post.date | date: '%B %Y' }} | {{ post.excerpt }}">
 	     <img src="{{ site.url }}/art/img/{{ post.img }}" alt="{{ post.title }} by Liz Lorena">
 	</a>	
 </div>
