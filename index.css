@@ -221,6 +221,10 @@ width:100%!important;
 height:800px!important;
 }
 
+.uk-close::after {
+	display:none!important;
+}
+
 html,
 html[data-theme="light"] {
 	--text-color: #000000;
