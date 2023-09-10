@@ -8,7 +8,7 @@
 <div class="post {{ post.year }}"> 
 	{% endif %}	
      <a href="{{ site.url }}/art{{ post.url }}" title="{{ post.title }}, {{ post.date | date: '%B %Y' }}" data-caption="{{ post.title }} | {{ post.date | date: '%B %Y' }} | {{ post.excerpt }}">
-	     <img src="{{ site.url }}/art/img/thumbnails/{{ post.img }}" alt="{{ post.title }} by Liz Lorena">
+	     <img src="{{ site.url }}/art/img/thumbnails/{{ post.thumbnail }}" alt="{{ post.title }} by Liz Lorena">
 	</a>	
 </div>
 
