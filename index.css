@@ -141,6 +141,10 @@ a.desktop:hover, a.desktop:active, a.desktop:focus, p a:hover, p a:active, p a:f
     text-decoration:none!important;
 }
 
+.uk-lightbox-items > * > :not(iframe) {
+	height:90%!important;
+}
+
 .post img, .uk-lightbox img {
 background:var(--post);
 }
