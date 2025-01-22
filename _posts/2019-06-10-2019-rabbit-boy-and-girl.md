@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Rabbit Boy and Girl
+date: 2019-06-10
 img: 2019-rabbit-boy-and-girl.png
 thumbnail: 2019-rabbit-boy-and-girl-thumb.jpg
 comments: true

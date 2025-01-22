@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Tinker Vibing
+date: 2018-10-03
 img: 2018-inktober-cat-girl.jpg
 thumbnail: 2018-inktober-cat-girl-thumb.jpg
 comments: true

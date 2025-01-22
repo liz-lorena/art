@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Rivals Concept
+date: 2018-12-01
 img: 2018-rivals-concept-art.png
 thumbnail: 2018-rivals-concept-art-thumb.jpg
 comments: true

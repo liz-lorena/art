@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Nagito Komaeda Sketch
+date: 2017-07-01
 img: 2017-nagito-komaeda-sketch.png
 thumbnail: 2017-nagito-komaeda-sketch-thumb.jpg
 comments: true

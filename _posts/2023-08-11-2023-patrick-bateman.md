@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Patrick Bateman
+date: 2023-08-11
 img: 2023-bateman.jpg
 thumbnail: 2023-bateman-thumb.jpg
 comments: true
